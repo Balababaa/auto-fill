@@ -11,5 +11,5 @@ chmod 777 run.sh
 添加到 crontab 的任务里去
 ```
 crontab -e
-0 6 * * * sh <存放的目录>/run.sh <学号> <密码>
+0 6 * * * sh /usr/auto-fill/run.sh <学号> <密码>
 ```
